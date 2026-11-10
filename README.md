@@ -1,4 +1,4 @@
-# DSA & Technical Interview Preparation
+# DSA Preparation
 
 A structured roadmap to build strong problem-solving skills, master DSA fundamentals, and prepare for technical interviews.
 
