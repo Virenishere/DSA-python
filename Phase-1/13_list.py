@@ -8,3 +8,5 @@ print(friends)
 
 friends[0] = "Banana" # Unlike Strings lists are mutable
 print(friends)
+
+print(friends[1:4])
