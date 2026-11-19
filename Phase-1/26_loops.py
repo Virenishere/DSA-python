@@ -35,3 +35,30 @@
 # s = 'Virender'
 # for i in s:
 #     print(i)
+
+
+# for-else loop 
+# l = [1,7,8]
+# for item in l:
+#     print(item)
+# else:
+#     print("done")
+
+
+# the break statement break the code 
+# for i in range(0,10):
+#     if i == 5:
+#         break
+#     print(i)
+
+
+# the continue statement skip that specific iteration 
+# for i in range(0,10):
+#     if i == 5:
+#         continue
+#     print(i)
+        
+
+# pass statement - it is null statement in python it instruct to do nothing
+# for i in range(645):
+#     pass
