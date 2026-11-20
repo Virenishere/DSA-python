@@ -53,10 +53,39 @@
 
 
 # reverse a list 
+# numbers = [1,2,3,4,5]
+# rev = []
+# for i in range(len(numbers)-1,-1,-1):
+#     rev.append(numbers[i])
+# print(rev)
 
-numbers = [1,2,3,4,5]
-rev = []
-for i in range(len(numbers)-1,-1,-1):
-    rev.append(numbers[i])
+# sum of all elements 
+# numbers = [10,20,30,40,50]
+# sum = 0
+# for i in range(len(numbers)):
+#     sum = sum + numbers[i]
+# print(sum)
 
-print(rev)
+#pallindrome
+text = "racecar"
+# print(list(text))
+# char = list(text)
+# rev = []
+
+# for i in range(len(char) - 1, -1 , -1):
+#     rev.append(char[i])
+
+# rev_text = "".join(rev)
+# # print(rev_text)
+# if(text == rev_text):
+#     print("is pallindrome")
+# else:
+#     print("not pallindrome")
+
+
+# if text == text[::-1]:
+#     print("is pallindrome")
+# else:
+#     print("not pallindrome")
+
+
