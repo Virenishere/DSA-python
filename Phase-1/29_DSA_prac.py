@@ -64,3 +64,25 @@
 # new_print = Solution()
 # new_print.reverseArr(arr)
 
+
+class Solution:
+    def convertFive(self, n):
+        # code here
+        result = 0
+        place = 1
+        if n == 0: return 5
+        while n > 0:
+            last_digit = n % 10
+            
+            if last_digit == 0:
+                last_digit = 5
+                
+            result = result + last_digit * place
+            
+            n = n // 10
+            place = place * 10
+            
+        return result
+
+new_print = Solution()
+print(new_print.convertFive(0))
