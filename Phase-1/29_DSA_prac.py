@@ -143,9 +143,9 @@ arr = [10, 20, 30, 40, 50]
 # print(arr[3:0:-1])  
 # print(arr[-1:-4:-1])
 
-arr = [1, 2, 3, 4, 5, 6]
-k = 2
+# arr = [1, 2, 3, 4, 5, 6]
+# k = 2
 
-for i in range(0, len(arr),k):
-    arr[i:i+k] = arr[i:i+k][::-1]
-print(arr)
+# for i in range(0, len(arr),k):
+#     arr[i:i+k] = arr[i:i+k][::-1]
+# print(arr)
