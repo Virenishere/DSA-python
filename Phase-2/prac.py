@@ -38,4 +38,16 @@ class Solution:
             else:
                 return False
         return True
+
+arr = [1,3,4,5]
+k = 2
+found = False
+for i in range(len(arr)):
+  # print("1", arr[i])
+  for j in range(i, len(arr)):
+    if k == arr[i] + arr[j]:
+      print(arr[i], arr[j])
+      found = True
+if not found:
+    print("no logic")
  
